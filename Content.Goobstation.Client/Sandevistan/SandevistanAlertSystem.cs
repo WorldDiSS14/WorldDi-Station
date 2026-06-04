@@ -18,7 +18,7 @@ public sealed class SandevistanAlertSystem : EntitySystem
 
         SubscribeLocalEvent<SandevistanUserComponent, GetGenericAlertCounterAmountEvent>(OnGetCounterAmount);
 
-        _loc.AddFunction(new CultureInfo("en-US"), "SANDE_LOAD_DESC", FormatSandeLoadDesc);
+        _loc.AddFunction(new CultureInfo("ru-RU"), "SANDE_LOAD_DESC", FormatSandeLoadDesc); // RU Localization
     }
 
     private void OnGetCounterAmount(Entity<SandevistanUserComponent> ent, ref GetGenericAlertCounterAmountEvent args)
