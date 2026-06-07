@@ -1,6 +1,6 @@
-chat-speech-verb-name-feroxi = Feroxi
-chat-speech-verb-feroxi-1 = blubs
-chat-speech-verb-feroxi-2 = swishes
-chat-speech-verb-feroxi-3 = gnashes
-chat-speech-verb-feroxi-4 = growls
-chat-emote-name-gnash = Gnash
+chat-speech-verb-name-feroxi = Ферокси
+chat-speech-verb-feroxi-1 = булькает
+chat-speech-verb-feroxi-2 = плещется
+chat-speech-verb-feroxi-3 = скрежещет
+chat-speech-verb-feroxi-4 = рычит
+chat-emote-name-gnash = Скрежет
