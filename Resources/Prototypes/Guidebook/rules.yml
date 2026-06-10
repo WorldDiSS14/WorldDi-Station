@@ -92,28 +92,28 @@
   name: guide-entry-rules-c4
   ruleEntry: true
   priority: 5
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4Antags.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4Logical.xml"
 
 - type: guideEntry
   id: RuleC5
   name: guide-entry-rules-c5
   ruleEntry: true
   priority: 6
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5Vitals.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5Antags.xml"
 
 - type: guideEntry
   id: RuleC6
   name: guide-entry-rules-c6
   ruleEntry: true
   priority: 7
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC6BanEvasion.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC6SelfAntag.xml"
 
 - type: guideEntry
   id: RuleC7
   name: guide-entry-rules-c7
   ruleEntry: true
   priority: 8
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC7EnglishOnly.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC7Validhant.xml"
 
 - type: guideEntry
   id: RuleC8
@@ -127,14 +127,14 @@
   name: guide-entry-rules-c9
   ruleEntry: true
   priority: 10
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9Age.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9Cheats.xml"
 
 - type: guideEntry
   id: RuleC10
   name: guide-entry-rules-c10
   ruleEntry: true
   priority: 11
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10GitGud.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10AHelp.xml"
 
 - type: guideEntry
   id: RuleC11
