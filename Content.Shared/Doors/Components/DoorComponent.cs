@@ -60,31 +60,31 @@ public sealed partial class DoorComponent : Component
     /// Closing time until impassable. Total time is this plus <see cref="CloseTimeTwo"/>.
     /// </summary>
     [DataField]
-    public TimeSpan CloseTimeOne = TimeSpan.FromSeconds(0.4f);
+    public TimeSpan CloseTimeOne = TimeSpan.FromSeconds(0.3f); // WorldDi-Edit
 
     /// <summary>
     /// Closing time until fully closed. Total time is this plus <see cref="CloseTimeOne"/>.
     /// </summary>
     [DataField]
-    public TimeSpan CloseTimeTwo = TimeSpan.FromSeconds(0.2f);
+    public TimeSpan CloseTimeTwo = TimeSpan.FromSeconds(0.3f); // WorldDi-Edit
 
     /// <summary>
     /// Opening time until passable. Total time is this plus <see cref="OpenTimeTwo"/>.
     /// </summary>
     [DataField]
-    public TimeSpan OpenTimeOne = TimeSpan.FromSeconds(0.4f);
+    public TimeSpan OpenTimeOne = TimeSpan.FromSeconds(0.2f); // WorldDi-Edit
 
     /// <summary>
     /// Opening time until fully open. Total time is this plus <see cref="OpenTimeOne"/>.
     /// </summary>
     [DataField]
-    public TimeSpan OpenTimeTwo = TimeSpan.FromSeconds(0.2f);
+    public TimeSpan OpenTimeTwo = TimeSpan.FromSeconds(0.4f); // WorldDi-Edit
 
     /// <summary>
     ///     Interval between deny sounds & visuals;
     /// </summary>
     [DataField]
-    public TimeSpan DenyDuration = TimeSpan.FromSeconds(0.45f);
+    public TimeSpan DenyDuration = TimeSpan.FromSeconds(0.5f); // WorldDi-Edit
 
     [DataField]
     public TimeSpan EmagDuration = TimeSpan.FromSeconds(0.8f);
@@ -216,13 +216,13 @@ public sealed partial class DoorComponent : Component
     /// The sprite state used for the door when it's open.
     /// </summary>
     [DataField]
-    public float OpeningAnimationTime = 0.8f;
+    public float OpeningAnimationTime = 0.6f; // WorldDi-Edit
 
     /// <summary>
     /// The sprite state used for the door when it's open.
     /// </summary>
     [DataField]
-    public float ClosingAnimationTime = 0.8f;
+    public float ClosingAnimationTime = 0.6f; // WorldDi-Edit
 
     /// <summary>
     /// The sprite state used for the door when it's open.
